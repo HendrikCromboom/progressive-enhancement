@@ -1,0 +1,71 @@
+body {
+    width: 90%;
+    margin: auto;
+    background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    overflow-x: hidden;
+    font-family: OpenSans;
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans-Regular.ttf);
+}
+article{
+   margin-top: 40%;
+}
+.intro{
+    margin-top: 10%;
+}
+q{
+    width: 50%;
+    font-size: 160%;
+    background-color: grey;
+    border-left: 3px black;
+    border-left-style: dashed;
+    display: block;
+    alignment: center;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+q.villagers{
+    border-left: 3px red;
+    border-left-style: dashed;
+}
+q.farmer{
+    border-left: 3px green;
+    border-left-style: dashed;
+}
+header p.story:first-child{
+    background-color: yellow;
+    font-weight: bold;
+}
+em[value="good"]{
+    text-transform: capitalize;
+    color: green;
+}
+em[value="bad"]{
+    text-transform: capitalize;
+    color: red;
+}
+th[value="white"]{
+    background-color: white;
+}
+th[value="grey"]{
+    background-color: grey;
+}
+hr{
+    width: 50%;
+    display: block;
+    alignment: center;
+}
+.img2  {
+    display: block;
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: 5%;
+}
