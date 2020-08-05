@@ -40,16 +40,16 @@ q.farmer{
     border-left-style: dashed;
 }
 header p.story:first-child{
-    background-color: yellow;
+    background-color: darkgoldenrod;
     font-weight: bold;
 }
 em[value="good"]{
     text-transform: capitalize;
-    color: green;
+    color: lightgreen;
 }
 em[value="bad"]{
     text-transform: capitalize;
-    color: red;
+    color: lightcoral;
 }
 th[value="white"]{
     background-color: white;
