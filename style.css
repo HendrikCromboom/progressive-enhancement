@@ -32,11 +32,11 @@ q{
     font-style: italic;
 }
 q.villagers{
-    border-left: 3px red;
+    border-left: 3px darkslateblue;
     border-left-style: dashed;
 }
 q.farmer{
-    border-left: 3px green;
+    border-left: 3px lightblue;
     border-left-style: dashed;
 }
 header p.story:first-child{
