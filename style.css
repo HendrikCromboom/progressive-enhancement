@@ -49,7 +49,7 @@ em[value="good"]{
 }
 em[value="bad"]{
     text-transform: capitalize;
-    color: lightcoral;
+    color: darkre;
 }
 th[value="white"]{
     background-color: white;
